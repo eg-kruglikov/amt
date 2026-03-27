@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --color-obsidian-base: #121418;
+  --color-soft-white: #f5f7fa;
+  --color-royal-gold: #d4af37;
+  --color-cool-silver: #c0c7d1;
+  --color-warm-amber: #f2c94c;
+
+  --background: var(--color-obsidian-base);
+  --foreground: var(--color-soft-white);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-obsidian: var(--color-obsidian-base);
+  --color-brand-white: var(--color-soft-white);
+  --color-brand-gold: var(--color-royal-gold);
+  --color-brand-silver: var(--color-cool-silver);
+  --color-brand-amber: var(--color-warm-amber);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
