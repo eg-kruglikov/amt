@@ -1,7 +1,0 @@
-# Competitor Example 06
-
-SITEMAP:
-
-PAGE MARKUP:
-
-NOTES:
