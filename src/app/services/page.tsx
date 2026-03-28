@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Услуги",
-  description: `Полный перечень работ автосервиса ${site.name} в ${site.city}: двигатель, ГРМ, сцепление, подвеска, жидкости, диагностика.`,
+  description: `Услуги ${site.name} (${site.tagline.toLowerCase()}) в ${site.city}: двигатель, ГРМ, сцепление, подвеска, жидкости, диагностика.`,
 };
 
 export default function ServicesPage() {

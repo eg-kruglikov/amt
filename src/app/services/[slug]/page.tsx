@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return { title: "Услуга" };
   return {
     title: service.title,
-    description: `${service.summary} ${site.name}, ${site.city}.`,
+    description: `${service.summary} ${site.name} (${site.tagline.toLowerCase()}), ${site.city}.`,
   };
 }
 
@@ -54,7 +54,7 @@ export default async function ServicePage({ params }: Props) {
         </div>
         <div className="space-y-6">
           <PageIntro
-            eyebrow={`${site.city} · ${site.name}`}
+            eyebrow={`${site.name} · ${site.tagline}`}
             title={service.title}
             description={service.summary}
           />

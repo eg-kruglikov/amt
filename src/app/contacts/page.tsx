@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Контакты",
-  description: `Контакты автосервиса ${site.name} в ${site.city}: телефон, адрес, запись на обслуживание.`,
+  description: `Контакты ${site.name} — ${site.tagline.toLowerCase()} в ${site.city}: телефон, адрес, запись.`,
 };
 
 export default function ContactsPage() {

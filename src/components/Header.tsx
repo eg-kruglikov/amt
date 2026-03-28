@@ -12,7 +12,7 @@ function BrandMark() {
   const letters = site.name.slice(0, 3).toUpperCase();
   return (
     <span
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-brand-gold/45 bg-brand-gold/10 text-[0.65rem] font-bold tracking-[0.08em] text-brand-gold"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-brand-gold/45 bg-brand-gold/10 text-[0.6rem] font-bold tracking-[0.06em] text-brand-gold"
       aria-hidden
     >
       {letters}
@@ -23,14 +23,14 @@ function BrandMark() {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-brand-silver/15 bg-brand-obsidian/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:px-6 md:h-16 md:flex-row md:items-center md:justify-between md:gap-6 md:py-0">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:px-6 md:min-h-16 md:flex-row md:items-center md:justify-between md:gap-6 md:py-2">
         <div className="flex items-center justify-between gap-4 md:justify-start">
           <Link
             href="/"
             className="flex items-center gap-3 text-brand-white transition-colors hover:text-brand-gold"
           >
             <BrandMark />
-            <span className="flex flex-col leading-tight">
+            <span className="flex min-w-0 flex-col leading-tight">
               <span className="text-sm font-semibold tracking-wide">{site.name}</span>
               <span className="text-xs text-brand-silver">{site.city}</span>
             </span>

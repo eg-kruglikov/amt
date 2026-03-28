@@ -10,6 +10,9 @@ export function Footer() {
           <p className="text-sm font-semibold tracking-wide text-brand-white">
             {site.name}
           </p>
+          <p className="text-xs leading-snug text-brand-silver/95 sm:text-sm">
+            {site.tagline}
+          </p>
           <p className="text-sm leading-relaxed text-brand-silver">
             Техническое обслуживание и ремонт в {site.city}. Двигатель, ГРМ,
             сцепление, подвеска, жидкости и диагностика.
@@ -44,7 +47,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-brand-silver/10 py-4 text-center text-xs text-brand-silver/80">
-        © {year} {site.name}. {site.city}.
+        © {year} {site.name} — {site.tagline}. {site.city}.
       </div>
     </footer>
   );

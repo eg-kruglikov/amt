@@ -8,13 +8,15 @@ export default function Home() {
   return (
     <>
       <section className="relative isolate w-full min-h-[min(88vh,40rem)] overflow-hidden border-b border-brand-silver/10 sm:min-h-[min(90vh,44rem)]">
+        {/* unoptimized: без /_next/image — иначе после замены hero.webp с тем же именем часто отдаётся старый кэш */}
         <Image
           src="/images/hero/hero.webp"
-          alt={`Автосервис ${site.name} в ${site.city}`}
+          alt={`${site.name}, ${site.tagline} — ${site.city}`}
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          unoptimized
         />
         {/* Затемнение для читаемости текста: слева плотнее, справа фото просвечивает */}
         <div
@@ -30,12 +32,15 @@ export default function Home() {
             <p className="text-sm tracking-[0.22em] text-brand-silver uppercase">
               {site.city} · {site.region}
             </p>
+            <p className="text-sm font-medium text-brand-gold/95 sm:text-base">
+              {site.name} — {site.tagline}
+            </p>
             <h1 className="text-4xl font-semibold tracking-tight text-brand-white sm:text-5xl lg:text-[2.75rem] lg:leading-[1.12] xl:text-5xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">
-              Автосервис в Мытищах: двигатель, ходовая, ГРМ и ТО
+              Ремонт и обслуживание: двигатель, ходовая, ГРМ и ТО
             </h1>
             <p className="text-lg leading-relaxed text-brand-silver sm:text-xl sm:leading-relaxed">
-              Ремонт и обслуживание с акцентом на двигатель, ГРМ, сцепление и
-              подвеску. Понятная смета, запись на сервис в {site.city}.
+              Акцент на двигатель, ГРМ, сцепление и подвеску. Понятная смета,
+              запись в {site.city}.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <Link
@@ -110,11 +115,10 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="rounded-3xl border border-brand-gold/25 bg-brand-gold/5 px-8 py-10 text-center md:px-14">
             <h2 className="text-2xl font-semibold text-brand-white md:text-3xl">
-              Запись в сервис в Мытищах
+              Запись в {site.name} · {site.city}
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-brand-silver">
-              Позвоните или оставьте заявку на странице контактов — подставим
-              реальные телефон, часы работы и адрес, когда будут готовы.
+              Позвоните или загляните на страницу контактов — подскажем по услугам и времени.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a

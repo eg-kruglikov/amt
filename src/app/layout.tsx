@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.name} — автосервис в ${site.city}`,
+    default: `${site.name} — ${site.tagline} · ${site.city}`,
     template: `%s · ${site.name} · ${site.city}`,
   },
-  description: `Автосервис в ${site.city}: двигатель, ГРМ, сцепление, подвеска, масла и жидкости, диагностика. ${site.region}.`,
+  description: `${site.name}, ${site.tagline.toLowerCase()} в ${site.city}: двигатель, ГРМ, сцепление, подвеска, масла и жидкости, диагностика. ${site.region}.`,
 };
 
 export default function RootLayout({
