@@ -66,10 +66,6 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-brand-white md:text-3xl">
               Ключевые направления
             </h2>
-            <p className="max-w-2xl text-brand-silver">
-              Ниже — опорная структура услуг. Детальные страницы можно наполнять
-              текстами, прайсом и фото из бокса в Мытищах.
-            </p>
           </div>
           <Link
             href="/services"

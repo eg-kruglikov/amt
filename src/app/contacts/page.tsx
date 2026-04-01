@@ -14,7 +14,7 @@ export default function ContactsPage() {
       <PageIntro
         eyebrow={site.city}
         title="Контакты и запись"
-        description={`Сервис в ${site.city} (${site.region}). Запись по телефону и визит по адресу ниже. Карту и часы работы можно добавить позже.`}
+        description={`Сервис в ${site.city} (${site.region}). Запись по телефону и визит по адресу ниже.`}
       />
 
       <div className="mt-12 space-y-8 rounded-3xl border border-brand-silver/15 bg-black/20 p-8">
