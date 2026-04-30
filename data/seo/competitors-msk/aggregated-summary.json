@@ -1,0 +1,2625 @@
+{
+  "source": "organic keys MSK (semicolon CSV)",
+  "row_counts": {
+    "vag-s.ru": 1049,
+    "vagroup.ru": 8140,
+    "autosimvol.ru": 1086
+  },
+  "total_rows": 10275,
+  "top_queries_union": [
+    {
+      "query": "масла замена",
+      "base_freq": 1253959
+    },
+    {
+      "query": "шкоду октавию",
+      "base_freq": 905911
+    },
+    {
+      "query": "автосервисе",
+      "base_freq": 840396
+    },
+    {
+      "query": "service",
+      "base_freq": 786656
+    },
+    {
+      "query": "ул с",
+      "base_freq": 690219
+    },
+    {
+      "query": "ваг",
+      "base_freq": 612979
+    },
+    {
+      "query": "вага",
+      "base_freq": 610610
+    },
+    {
+      "query": "вагам",
+      "base_freq": 610333
+    },
+    {
+      "query": "вагах",
+      "base_freq": 610296
+    },
+    {
+      "query": "замена передних",
+      "base_freq": 607842
+    },
+    {
+      "query": "в сервис",
+      "base_freq": 607215
+    },
+    {
+      "query": "в сервисе",
+      "base_freq": 607208
+    },
+    {
+      "query": "сервис в",
+      "base_freq": 592910
+    },
+    {
+      "query": "вагою",
+      "base_freq": 410286
+    },
+    {
+      "query": "вагой",
+      "base_freq": 363510
+    },
+    {
+      "query": "октавии а5",
+      "base_freq": 349710
+    },
+    {
+      "query": "замена акпп",
+      "base_freq": 315210
+    },
+    {
+      "query": "метки грм",
+      "base_freq": 287621
+    },
+    {
+      "query": "замена датчиков",
+      "base_freq": 287300
+    },
+    {
+      "query": "грм метки",
+      "base_freq": 261241
+    },
+    {
+      "query": "vag",
+      "base_freq": 260495
+    },
+    {
+      "query": "vags",
+      "base_freq": 260489
+    },
+    {
+      "query": "замена сальников",
+      "base_freq": 249439
+    },
+    {
+      "query": "замена сальника",
+      "base_freq": 248287
+    },
+    {
+      "query": "акпп замена",
+      "base_freq": 246707
+    },
+    {
+      "query": "а5 шкода",
+      "base_freq": 245483
+    },
+    {
+      "query": "шкоду октавия а5",
+      "base_freq": 219351
+    },
+    {
+      "query": "шкоду октавию а5",
+      "base_freq": 219351
+    },
+    {
+      "query": "октавия тур",
+      "base_freq": 199391
+    },
+    {
+      "query": "сервис с",
+      "base_freq": 198032
+    },
+    {
+      "query": "с сервис",
+      "base_freq": 198032
+    },
+    {
+      "query": "замена цепи",
+      "base_freq": 188371
+    },
+    {
+      "query": "замена рулевого",
+      "base_freq": 177925
+    },
+    {
+      "query": "замена колодок задних",
+      "base_freq": 155607
+    },
+    {
+      "query": "замена помпы",
+      "base_freq": 120504
+    },
+    {
+      "query": "замена коленвала",
+      "base_freq": 115972
+    },
+    {
+      "query": "замена приводов",
+      "base_freq": 107436
+    },
+    {
+      "query": "замена привода",
+      "base_freq": 107434
+    },
+    {
+      "query": "москва сервис",
+      "base_freq": 103248
+    },
+    {
+      "query": "замена редуктора",
+      "base_freq": 103006
+    },
+    {
+      "query": "замена втулок",
+      "base_freq": 101498
+    },
+    {
+      "query": "коленвал замена",
+      "base_freq": 98369
+    },
+    {
+      "query": "замена пружин",
+      "base_freq": 96825
+    },
+    {
+      "query": "замена тормозных дисков",
+      "base_freq": 93414
+    },
+    {
+      "query": "замена гбц",
+      "base_freq": 91125
+    },
+    {
+      "query": "замена антифриза",
+      "base_freq": 88194
+    },
+    {
+      "query": "замена гур",
+      "base_freq": 88080
+    },
+    {
+      "query": "замена гура",
+      "base_freq": 88080
+    },
+    {
+      "query": "шкода двигатели",
+      "base_freq": 86381
+    },
+    {
+      "query": "сервис москва",
+      "base_freq": 84577
+    },
+    {
+      "query": "замена подушки",
+      "base_freq": 78663
+    },
+    {
+      "query": "гур замена",
+      "base_freq": 77728
+    },
+    {
+      "query": "замена форсунок",
+      "base_freq": 75553
+    },
+    {
+      "query": "редуктор замена",
+      "base_freq": 69894
+    },
+    {
+      "query": "шрус замена",
+      "base_freq": 69286
+    },
+    {
+      "query": "от сервис",
+      "base_freq": 69252
+    },
+    {
+      "query": "замена колодки передние",
+      "base_freq": 68016
+    },
+    {
+      "query": "замена амортизаторов задних",
+      "base_freq": 66337
+    },
+    {
+      "query": "замена заднего амортизатора",
+      "base_freq": 66337
+    },
+    {
+      "query": "замена задних амортизаторов",
+      "base_freq": 66337
+    },
+    {
+      "query": "форсунки замена",
+      "base_freq": 60013
+    },
+    {
+      "query": "шкода октавия замена",
+      "base_freq": 59565
+    },
+    {
+      "query": "1.8 tsi",
+      "base_freq": 57678
+    },
+    {
+      "query": "замена мкпп",
+      "base_freq": 56246
+    },
+    {
+      "query": "ауди а4 б6",
+      "base_freq": 55726
+    },
+    {
+      "query": "ваг на",
+      "base_freq": 54703
+    },
+    {
+      "query": "шкода где",
+      "base_freq": 54194
+    },
+    {
+      "query": "сеата",
+      "base_freq": 53583
+    },
+    {
+      "query": "замена сайлентблока рычага",
+      "base_freq": 53200
+    },
+    {
+      "query": "замена распредвалов",
+      "base_freq": 51881
+    },
+    {
+      "query": "бмв ошибка",
+      "base_freq": 51458
+    },
+    {
+      "query": "распредвал сальник",
+      "base_freq": 51190
+    },
+    {
+      "query": "метки на грм",
+      "base_freq": 49204
+    },
+    {
+      "query": "на метки грм",
+      "base_freq": 49150
+    },
+    {
+      "query": "замена сайлентблоков передних",
+      "base_freq": 48134
+    },
+    {
+      "query": "замена передних сайлентблоков",
+      "base_freq": 48134
+    },
+    {
+      "query": "в групп москва",
+      "base_freq": 47884
+    },
+    {
+      "query": "замена приводного",
+      "base_freq": 45834
+    },
+    {
+      "query": "кпп ремонт",
+      "base_freq": 45366
+    },
+    {
+      "query": "на шкоде октавия тур",
+      "base_freq": 43876
+    },
+    {
+      "query": "замены стоек стабилизатора",
+      "base_freq": 42666
+    },
+    {
+      "query": "замена приводных ремней",
+      "base_freq": 41278
+    },
+    {
+      "query": "замена приводного ремня",
+      "base_freq": 41274
+    },
+    {
+      "query": "замена амортизаторов передних",
+      "base_freq": 41045
+    },
+    {
+      "query": "замена ремня грм на",
+      "base_freq": 40081
+    },
+    {
+      "query": "ку 7 ауди",
+      "base_freq": 40025
+    },
+    {
+      "query": "замена подушки двигателя",
+      "base_freq": 39970
+    },
+    {
+      "query": "масло тигуан",
+      "base_freq": 39800
+    },
+    {
+      "query": "селектора акпп",
+      "base_freq": 39129
+    },
+    {
+      "query": "селектор акпп",
+      "base_freq": 39129
+    },
+    {
+      "query": "двигателя шкода октавия",
+      "base_freq": 38835
+    },
+    {
+      "query": "акпп селектор",
+      "base_freq": 38667
+    },
+    {
+      "query": "грм шкода",
+      "base_freq": 38286
+    },
+    {
+      "query": "замена бампера",
+      "base_freq": 38244
+    },
+    {
+      "query": "предохранители шкода",
+      "base_freq": 37704
+    },
+    {
+      "query": "замена рулевых наконечников",
+      "base_freq": 35510
+    },
+    {
+      "query": "сервис где",
+      "base_freq": 35209
+    },
+    {
+      "query": "ремонт передних",
+      "base_freq": 34472
+    },
+    {
+      "query": "замена шруса внутреннего",
+      "base_freq": 33953
+    },
+    {
+      "query": "замена задних пружин",
+      "base_freq": 33015
+    },
+    {
+      "query": "как выставить метки на",
+      "base_freq": 32571
+    },
+    {
+      "query": "замена опорного подшипника",
+      "base_freq": 32455
+    },
+    {
+      "query": "замена турбины",
+      "base_freq": 32418
+    },
+    {
+      "query": "диагностика двигателей",
+      "base_freq": 31986
+    },
+    {
+      "query": "диагностика двигателя",
+      "base_freq": 31986
+    },
+    {
+      "query": "замена цилиндра тормозного",
+      "base_freq": 31754
+    },
+    {
+      "query": "техцентры",
+      "base_freq": 30662
+    },
+    {
+      "query": "техцентр",
+      "base_freq": 30662
+    },
+    {
+      "query": "тормозной диск замена",
+      "base_freq": 29207
+    },
+    {
+      "query": "как выставить метки грм",
+      "base_freq": 28356
+    },
+    {
+      "query": "кузовная работа",
+      "base_freq": 28180
+    },
+    {
+      "query": "сервис в москве",
+      "base_freq": 28042
+    },
+    {
+      "query": "ремонт передней",
+      "base_freq": 27039
+    },
+    {
+      "query": "ремонт переднего",
+      "base_freq": 27027
+    },
+    {
+      "query": "ваг с",
+      "base_freq": 26975
+    },
+    {
+      "query": "шкода 5",
+      "base_freq": 26970
+    },
+    {
+      "query": "a5 skoda",
+      "base_freq": 26875
+    },
+    {
+      "query": "метки коленвала",
+      "base_freq": 26776
+    },
+    {
+      "query": "метка коленвала",
+      "base_freq": 26772
+    },
+    {
+      "query": "грм ауди",
+      "base_freq": 25782
+    },
+    {
+      "query": "сколько литров заливают",
+      "base_freq": 25206
+    },
+    {
+      "query": "замена передней пружины",
+      "base_freq": 25012
+    },
+    {
+      "query": "шкода рапид замена",
+      "base_freq": 24944
+    },
+    {
+      "query": "замена тнвд",
+      "base_freq": 24663
+    },
+    {
+      "query": "замена направляющей",
+      "base_freq": 24133
+    },
+    {
+      "query": "отзывы автосервис",
+      "base_freq": 23947
+    },
+    {
+      "query": "отзыв автосервису",
+      "base_freq": 23947
+    },
+    {
+      "query": "ауди ремонт",
+      "base_freq": 23826
+    },
+    {
+      "query": "cc passat",
+      "base_freq": 23430
+    },
+    {
+      "query": "чистка форсунок",
+      "base_freq": 23288
+    },
+    {
+      "query": "шкода октавия а5 замена",
+      "base_freq": 22949
+    },
+    {
+      "query": "метки распредвала",
+      "base_freq": 22937
+    },
+    {
+      "query": "ремонт тнвд",
+      "base_freq": 22382
+    },
+    {
+      "query": "коробка передач ремонт",
+      "base_freq": 22140
+    },
+    {
+      "query": "замена передних тормозных дисков",
+      "base_freq": 21853
+    },
+    {
+      "query": "грм поло",
+      "base_freq": 21690
+    },
+    {
+      "query": "ошибка акпп",
+      "base_freq": 21658
+    },
+    {
+      "query": "проверка форсунок",
+      "base_freq": 21220
+    },
+    {
+      "query": "замена компрессора кондиционера",
+      "base_freq": 21083
+    },
+    {
+      "query": "дверь опель астра",
+      "base_freq": 20881
+    },
+    {
+      "query": "замена сайлентблоков балки",
+      "base_freq": 20130
+    },
+    {
+      "query": "стартер фольксваген",
+      "base_freq": 19801
+    },
+    {
+      "query": "замена гидрокомпенсаторов",
+      "base_freq": 19761
+    },
+    {
+      "query": "замена гидрокомпенсаторы",
+      "base_freq": 19761
+    },
+    {
+      "query": "ремонт фольксваген",
+      "base_freq": 19751
+    },
+    {
+      "query": "ремонт фольксвагена",
+      "base_freq": 19751
+    },
+    {
+      "query": "гидрокомпенсаторы замена",
+      "base_freq": 19683
+    },
+    {
+      "query": "фольксваген ремонт",
+      "base_freq": 19438
+    },
+    {
+      "query": "ремонт ауди",
+      "base_freq": 19333
+    },
+    {
+      "query": "сальники акпп",
+      "base_freq": 19327
+    }
+  ],
+  "top_queries_vagish": [
+    {
+      "query": "шкоду октавию",
+      "base_freq": 905911
+    },
+    {
+      "query": "ваг",
+      "base_freq": 612979
+    },
+    {
+      "query": "вага",
+      "base_freq": 610610
+    },
+    {
+      "query": "вагам",
+      "base_freq": 610333
+    },
+    {
+      "query": "вагах",
+      "base_freq": 610296
+    },
+    {
+      "query": "вагою",
+      "base_freq": 410286
+    },
+    {
+      "query": "вагой",
+      "base_freq": 363510
+    },
+    {
+      "query": "октавии а5",
+      "base_freq": 349710
+    },
+    {
+      "query": "замена акпп",
+      "base_freq": 315210
+    },
+    {
+      "query": "метки грм",
+      "base_freq": 287621
+    },
+    {
+      "query": "грм метки",
+      "base_freq": 261241
+    },
+    {
+      "query": "vag",
+      "base_freq": 260495
+    },
+    {
+      "query": "vags",
+      "base_freq": 260489
+    },
+    {
+      "query": "акпп замена",
+      "base_freq": 246707
+    },
+    {
+      "query": "а5 шкода",
+      "base_freq": 245483
+    },
+    {
+      "query": "шкоду октавия а5",
+      "base_freq": 219351
+    },
+    {
+      "query": "шкоду октавию а5",
+      "base_freq": 219351
+    },
+    {
+      "query": "октавия тур",
+      "base_freq": 199391
+    },
+    {
+      "query": "шкода двигатели",
+      "base_freq": 86381
+    },
+    {
+      "query": "шкода октавия замена",
+      "base_freq": 59565
+    },
+    {
+      "query": "ауди а4 б6",
+      "base_freq": 55726
+    },
+    {
+      "query": "ваг на",
+      "base_freq": 54703
+    },
+    {
+      "query": "шкода где",
+      "base_freq": 54194
+    },
+    {
+      "query": "сеата",
+      "base_freq": 53583
+    },
+    {
+      "query": "метки на грм",
+      "base_freq": 49204
+    },
+    {
+      "query": "на метки грм",
+      "base_freq": 49150
+    },
+    {
+      "query": "на шкоде октавия тур",
+      "base_freq": 43876
+    },
+    {
+      "query": "замена ремня грм на",
+      "base_freq": 40081
+    },
+    {
+      "query": "ку 7 ауди",
+      "base_freq": 40025
+    },
+    {
+      "query": "масло тигуан",
+      "base_freq": 39800
+    },
+    {
+      "query": "селектора акпп",
+      "base_freq": 39129
+    },
+    {
+      "query": "селектор акпп",
+      "base_freq": 39129
+    },
+    {
+      "query": "двигателя шкода октавия",
+      "base_freq": 38835
+    },
+    {
+      "query": "акпп селектор",
+      "base_freq": 38667
+    },
+    {
+      "query": "грм шкода",
+      "base_freq": 38286
+    },
+    {
+      "query": "предохранители шкода",
+      "base_freq": 37704
+    },
+    {
+      "query": "как выставить метки грм",
+      "base_freq": 28356
+    },
+    {
+      "query": "ваг с",
+      "base_freq": 26975
+    },
+    {
+      "query": "шкода 5",
+      "base_freq": 26970
+    },
+    {
+      "query": "a5 skoda",
+      "base_freq": 26875
+    },
+    {
+      "query": "грм ауди",
+      "base_freq": 25782
+    },
+    {
+      "query": "шкода рапид замена",
+      "base_freq": 24944
+    },
+    {
+      "query": "ауди ремонт",
+      "base_freq": 23826
+    },
+    {
+      "query": "cc passat",
+      "base_freq": 23430
+    },
+    {
+      "query": "шкода октавия а5 замена",
+      "base_freq": 22949
+    },
+    {
+      "query": "грм поло",
+      "base_freq": 21690
+    },
+    {
+      "query": "ошибка акпп",
+      "base_freq": 21658
+    },
+    {
+      "query": "стартер фольксваген",
+      "base_freq": 19801
+    },
+    {
+      "query": "ремонт фольксваген",
+      "base_freq": 19751
+    },
+    {
+      "query": "ремонт фольксвагена",
+      "base_freq": 19751
+    },
+    {
+      "query": "фольксваген ремонт",
+      "base_freq": 19438
+    },
+    {
+      "query": "ремонт ауди",
+      "base_freq": 19333
+    },
+    {
+      "query": "сальники акпп",
+      "base_freq": 19327
+    },
+    {
+      "query": "octavia tour",
+      "base_freq": 18878
+    },
+    {
+      "query": "поло то",
+      "base_freq": 18790
+    },
+    {
+      "query": "поло грм",
+      "base_freq": 18703
+    },
+    {
+      "query": "метки грм цепи",
+      "base_freq": 17727
+    },
+    {
+      "query": "подвеска ауди",
+      "base_freq": 17228
+    },
+    {
+      "query": "замена грм шкода",
+      "base_freq": 16428
+    },
+    {
+      "query": "шкода а4 тур",
+      "base_freq": 16274
+    },
+    {
+      "query": "замена фильтра акпп",
+      "base_freq": 16190
+    },
+    {
+      "query": "ремонт шкода",
+      "base_freq": 15868
+    },
+    {
+      "query": "ремонт шкоды",
+      "base_freq": 15868
+    },
+    {
+      "query": "акпп поло",
+      "base_freq": 15862
+    },
+    {
+      "query": "замена масла фольксваген",
+      "base_freq": 15505
+    },
+    {
+      "query": "шкода ремонт",
+      "base_freq": 15440
+    },
+    {
+      "query": "шкода замена масла",
+      "base_freq": 14479
+    },
+    {
+      "query": "акпп 7",
+      "base_freq": 14007
+    },
+    {
+      "query": "ауди к",
+      "base_freq": 14004
+    },
+    {
+      "query": "замена масла ауди",
+      "base_freq": 13635
+    },
+    {
+      "query": "замена грм фольксваген",
+      "base_freq": 13591
+    },
+    {
+      "query": "рс шкода",
+      "base_freq": 12282
+    },
+    {
+      "query": "двигателя шкода рапид",
+      "base_freq": 11724
+    },
+    {
+      "query": "запчасти ауди",
+      "base_freq": 11353
+    },
+    {
+      "query": "грм фольксваген поло",
+      "base_freq": 11270
+    },
+    {
+      "query": "масло фольксваген тигуан",
+      "base_freq": 11198
+    },
+    {
+      "query": "дсг шкода",
+      "base_freq": 11041
+    },
+    {
+      "query": "метки грм 1",
+      "base_freq": 10806
+    },
+    {
+      "query": "замена масла тигуан",
+      "base_freq": 10737
+    },
+    {
+      "query": "ваг это",
+      "base_freq": 10490
+    },
+    {
+      "query": "ауди с 100",
+      "base_freq": 10485
+    },
+    {
+      "query": "фольксваген поло грм",
+      "base_freq": 10194
+    },
+    {
+      "query": "купить vag",
+      "base_freq": 10173
+    },
+    {
+      "query": "ауди запчасти",
+      "base_freq": 10090
+    },
+    {
+      "query": "двери фольксваген поло",
+      "base_freq": 10067
+    },
+    {
+      "query": "дверь фольксваген поло",
+      "base_freq": 10067
+    },
+    {
+      "query": "шкода то",
+      "base_freq": 9965
+    },
+    {
+      "query": "то шкода",
+      "base_freq": 9964
+    },
+    {
+      "query": "audi a4 b6",
+      "base_freq": 9790
+    },
+    {
+      "query": "турбина ауди",
+      "base_freq": 9724
+    },
+    {
+      "query": "туарег пневмоподвеска",
+      "base_freq": 9459
+    },
+    {
+      "query": "ваг сервис",
+      "base_freq": 9448
+    },
+    {
+      "query": "замена грм поло",
+      "base_freq": 9423
+    },
+    {
+      "query": "то фольксваген",
+      "base_freq": 9151
+    },
+    {
+      "query": "сервисы ваг",
+      "base_freq": 8938
+    },
+    {
+      "query": "сервис ваг",
+      "base_freq": 8938
+    },
+    {
+      "query": "ремонт пассат",
+      "base_freq": 8924
+    },
+    {
+      "query": "замена грм ауди",
+      "base_freq": 8387
+    },
+    {
+      "query": "фольксваген то",
+      "base_freq": 8233
+    },
+    {
+      "query": "фото ваг",
+      "base_freq": 8227
+    }
+  ],
+  "top_urls_union": [
+    {
+      "url": "https://vag-s.ru/",
+      "base_freq_sum_distinct_queries": 7111155,
+      "distinct_queries": 563
+    },
+    {
+      "url": "https://vagroup.ru/",
+      "base_freq_sum_distinct_queries": 3333967,
+      "distinct_queries": 336
+    },
+    {
+      "url": "https://vagroup.ru/volkswagen/zamena-masla-v-dvigatele",
+      "base_freq_sum_distinct_queries": 1272724,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://autosimvol.ru/blog/proverka-ustanovki-cepi-grm-1.8-tsi",
+      "base_freq_sum_distinct_queries": 1039642,
+      "distinct_queries": 172
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia",
+      "base_freq_sum_distinct_queries": 972641,
+      "distinct_queries": 6
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/a5",
+      "base_freq_sum_distinct_queries": 841192,
+      "distinct_queries": 13
+    },
+    {
+      "url": "https://vagroup.ru/zamena-perednih-amortizatorov",
+      "base_freq_sum_distinct_queries": 660777,
+      "distinct_queries": 15
+    },
+    {
+      "url": "https://vagroup.ru/zamena-akpp",
+      "base_freq_sum_distinct_queries": 570666,
+      "distinct_queries": 5
+    },
+    {
+      "url": "https://autosimvol.ru/",
+      "base_freq_sum_distinct_queries": 567937,
+      "distinct_queries": 269
+    },
+    {
+      "url": "https://vagroup.ru/zamena-salnikov",
+      "base_freq_sum_distinct_queries": 508665,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://vagroup.ru/remont-i-zamena-datchikov",
+      "base_freq_sum_distinct_queries": 287313,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/tour",
+      "base_freq_sum_distinct_queries": 284497,
+      "distinct_queries": 16
+    },
+    {
+      "url": "https://vagroup.ru/zamena-gidrousilitelya",
+      "base_freq_sum_distinct_queries": 283606,
+      "distinct_queries": 17
+    },
+    {
+      "url": "https://vag-s.ru/online-entries",
+      "base_freq_sum_distinct_queries": 260522,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/remont-i-zamena-kolenvala",
+      "base_freq_sum_distinct_queries": 225996,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/a5/remont-podveski",
+      "base_freq_sum_distinct_queries": 225677,
+      "distinct_queries": 8
+    },
+    {
+      "url": "https://vagroup.ru/zamena-zadnih-amortizatorov",
+      "base_freq_sum_distinct_queries": 208191,
+      "distinct_queries": 14
+    },
+    {
+      "url": "https://vagroup.ru/zamena-cepi-grm",
+      "base_freq_sum_distinct_queries": 194706,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/zamena-pruzhin-amortizatorov",
+      "base_freq_sum_distinct_queries": 185987,
+      "distinct_queries": 27
+    },
+    {
+      "url": "https://vagroup.ru/zamena-rulevoy-reyki",
+      "base_freq_sum_distinct_queries": 177925,
+      "distinct_queries": 1
+    },
+    {
+      "url": "https://vagroup.ru/zamena-sajlentblokov-perednej-podveski",
+      "base_freq_sum_distinct_queries": 175394,
+      "distinct_queries": 23
+    },
+    {
+      "url": "https://vagroup.ru/remont-i-zamena-reduktorov",
+      "base_freq_sum_distinct_queries": 172900,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/zamena-zadnih-tormoznih-kolodok",
+      "base_freq_sum_distinct_queries": 156074,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/zamena-tormoznyh-diskov",
+      "base_freq_sum_distinct_queries": 148144,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://vagroup.ru/zamena-pompy-zamena-vodyanogo-nasosa",
+      "base_freq_sum_distinct_queries": 141910,
+      "distinct_queries": 9
+    },
+    {
+      "url": "https://vagroup.ru/zamena-forsunok",
+      "base_freq_sum_distinct_queries": 139017,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/full_repair_engine",
+      "base_freq_sum_distinct_queries": 132362,
+      "distinct_queries": 11
+    },
+    {
+      "url": "https://vagroup.ru/zamena-privodnogo-remnya",
+      "base_freq_sum_distinct_queries": 131539,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/remont-i-zamena-selektora-akpp",
+      "base_freq_sum_distinct_queries": 122487,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/zamena-podushek-dvigatelya",
+      "base_freq_sum_distinct_queries": 121922,
+      "distinct_queries": 12
+    },
+    {
+      "url": "https://vagroup.ru/zamena-shrusa",
+      "base_freq_sum_distinct_queries": 111664,
+      "distinct_queries": 6
+    },
+    {
+      "url": "https://vagroup.ru/skoda/remont-i-zamena-privodov-avtomobilya",
+      "base_freq_sum_distinct_queries": 107436,
+      "distinct_queries": 1
+    },
+    {
+      "url": "https://vagroup.ru/zamena-privoda-akpp",
+      "base_freq_sum_distinct_queries": 107434,
+      "distinct_queries": 1
+    },
+    {
+      "url": "https://vagroup.ru/zamena-vtulok-stabilizatora",
+      "base_freq_sum_distinct_queries": 103356,
+      "distinct_queries": 6
+    },
+    {
+      "url": "https://vagroup.ru/zamena-antifriza",
+      "base_freq_sum_distinct_queries": 100629,
+      "distinct_queries": 33
+    },
+    {
+      "url": "https://vag-s.ru/services/akpp/rasshifrovka-i-prichiny-oshibok",
+      "base_freq_sum_distinct_queries": 100403,
+      "distinct_queries": 161
+    },
+    {
+      "url": "https://vagroup.ru/volkswagen/polo/zamena-remnya-grm",
+      "base_freq_sum_distinct_queries": 97784,
+      "distinct_queries": 42
+    },
+    {
+      "url": "https://vagroup.ru/zamena-golovki-bloka-cilindrov",
+      "base_freq_sum_distinct_queries": 93967,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/remont-peredney-podveski",
+      "base_freq_sum_distinct_queries": 88538,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/remont-korobki-peredach",
+      "base_freq_sum_distinct_queries": 86431,
+      "distinct_queries": 8
+    },
+    {
+      "url": "https://vagroup.ru/volkswagen/tiguan/zamena-masla-v-dvigatele",
+      "base_freq_sum_distinct_queries": 85752,
+      "distinct_queries": 14
+    },
+    {
+      "url": "https://vagroup.ru/skoda",
+      "base_freq_sum_distinct_queries": 82541,
+      "distinct_queries": 50
+    },
+    {
+      "url": "https://vagroup.ru/news/rasprostranennye-problemy-audi-a4-b6",
+      "base_freq_sum_distinct_queries": 80562,
+      "distinct_queries": 25
+    },
+    {
+      "url": "https://autosimvol.ru/volkswagen/remont-i-obsluzhivanie-vw-polo-v/zamena-grm",
+      "base_freq_sum_distinct_queries": 80184,
+      "distinct_queries": 47
+    },
+    {
+      "url": "https://vagroup.ru/volkswagen",
+      "base_freq_sum_distinct_queries": 79031,
+      "distinct_queries": 51
+    },
+    {
+      "url": "https://vagroup.ru/faq/30",
+      "base_freq_sum_distinct_queries": 76518,
+      "distinct_queries": 88
+    },
+    {
+      "url": "https://vagroup.ru/reviews",
+      "base_freq_sum_distinct_queries": 76488,
+      "distinct_queries": 18
+    },
+    {
+      "url": "https://vagroup.ru/zamena-gidrokompensatorov",
+      "base_freq_sum_distinct_queries": 71786,
+      "distinct_queries": 18
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/a7/zamena-perednih-tormoznih-kolodok",
+      "base_freq_sum_distinct_queries": 70662,
+      "distinct_queries": 12
+    },
+    {
+      "url": "https://vagroup.ru/zamena-saylentblokov-zadney-balki",
+      "base_freq_sum_distinct_queries": 70288,
+      "distinct_queries": 15
+    },
+    {
+      "url": "https://vagroup.ru/diagnostika-dvigatelya",
+      "base_freq_sum_distinct_queries": 70084,
+      "distinct_queries": 12
+    },
+    {
+      "url": "https://autosimvol.ru/skoda/remont-i-obsluzhivanie-skoda-octavia",
+      "base_freq_sum_distinct_queries": 68212,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://vagroup.ru/zamena-salnika-raspredvala",
+      "base_freq_sum_distinct_queries": 64857,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/zamena-bampera",
+      "base_freq_sum_distinct_queries": 59435,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/zamena-mkpp",
+      "base_freq_sum_distinct_queries": 57652,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/a5/polnaya-pokraska",
+      "base_freq_sum_distinct_queries": 56194,
+      "distinct_queries": 5
+    },
+    {
+      "url": "https://vagroup.ru/seat",
+      "base_freq_sum_distinct_queries": 54163,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://vagroup.ru/audi",
+      "base_freq_sum_distinct_queries": 53407,
+      "distinct_queries": 54
+    },
+    {
+      "url": "https://vagroup.ru/price",
+      "base_freq_sum_distinct_queries": 52242,
+      "distinct_queries": 96
+    },
+    {
+      "url": "https://vagroup.ru/zamena-raspredvala",
+      "base_freq_sum_distinct_queries": 51881,
+      "distinct_queries": 1
+    },
+    {
+      "url": "https://vagroup.ru/zamena-stoek-stabilizatora",
+      "base_freq_sum_distinct_queries": 49205,
+      "distinct_queries": 16
+    },
+    {
+      "url": "https://vagroup.ru/remont-tormoznogo-supporta",
+      "base_freq_sum_distinct_queries": 48732,
+      "distinct_queries": 17
+    },
+    {
+      "url": "https://autosimvol.ru/audi/zamena-grm",
+      "base_freq_sum_distinct_queries": 44254,
+      "distinct_queries": 10
+    },
+    {
+      "url": "https://vagroup.ru/zamena-salnikov-akpp",
+      "base_freq_sum_distinct_queries": 42719,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/audi/engine/remen_grm",
+      "base_freq_sum_distinct_queries": 41361,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/zamena-remnya-grm",
+      "base_freq_sum_distinct_queries": 40631,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/faq/29",
+      "base_freq_sum_distinct_queries": 40173,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/audi/q7/diagnostika",
+      "base_freq_sum_distinct_queries": 40095,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/remont-i-zamena-razdatochnoy-korobki-razdatki",
+      "base_freq_sum_distinct_queries": 39761,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/skoda/octavia/zamena-remnya-grm",
+      "base_freq_sum_distinct_queries": 39501,
+      "distinct_queries": 11
+    },
+    {
+      "url": "https://vagroup.ru/skoda/zamena-remnya-grm",
+      "base_freq_sum_distinct_queries": 38297,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/volkswagen/polo/polnaya-zamena-masla-v-akpp",
+      "base_freq_sum_distinct_queries": 37388,
+      "distinct_queries": 38
+    },
+    {
+      "url": "https://vagroup.ru/diagnostika-forsunok",
+      "base_freq_sum_distinct_queries": 37313,
+      "distinct_queries": 21
+    },
+    {
+      "url": "https://vagroup.ru/zamena-rulevih-nakonechnikov",
+      "base_freq_sum_distinct_queries": 36958,
+      "distinct_queries": 2
+    },
+    {
+      "url": "https://vagroup.ru/zamena-opornogo-podshipnika",
+      "base_freq_sum_distinct_queries": 35203,
+      "distinct_queries": 4
+    },
+    {
+      "url": "https://vagroup.ru/zamena-turbini",
+      "base_freq_sum_distinct_queries": 34819,
+      "distinct_queries": 7
+    },
+    {
+      "url": "https://vagroup.ru/zamena-tormoznogo-cilindra",
+      "base_freq_sum_distinct_queries": 34768,
+      "distinct_queries": 3
+    },
+    {
+      "url": "https://vagroup.ru/contacts",
+      "base_freq_sum_distinct_queries": 34540,
+      "distinct_queries": 35
+    },
+    {
+      "url": "https://vagroup.ru/news/skolko-masla-v-dvigatele-skoda-octavia",
+      "base_freq_sum_distinct_queries": 32899,
+      "distinct_queries": 29
+    },
+    {
+      "url": "https://vagroup.ru/remont-mehatronika-rkpp",
+      "base_freq_sum_distinct_queries": 31901,
+      "distinct_queries": 30
+    }
+  ],
+  "top_path_buckets": [
+    {
+      "domain_bucket": "vag-s.ru:/",
+      "base_freq_sum_distinct_queries": 7111155
+    },
+    {
+      "domain_bucket": "vagroup.ru:/skoda/…",
+      "base_freq_sum_distinct_queries": 3680406
+    },
+    {
+      "domain_bucket": "vagroup.ru:/",
+      "base_freq_sum_distinct_queries": 3333967
+    },
+    {
+      "domain_bucket": "vagroup.ru:/volkswagen/…",
+      "base_freq_sum_distinct_queries": 2469890
+    },
+    {
+      "domain_bucket": "autosimvol.ru:/blog/…",
+      "base_freq_sum_distinct_queries": 1064753
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-perednih-amortizatorov",
+      "base_freq_sum_distinct_queries": 660777
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-akpp",
+      "base_freq_sum_distinct_queries": 570666
+    },
+    {
+      "domain_bucket": "autosimvol.ru:/",
+      "base_freq_sum_distinct_queries": 567937
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-salnikov",
+      "base_freq_sum_distinct_queries": 508665
+    },
+    {
+      "domain_bucket": "vagroup.ru:/audi/…",
+      "base_freq_sum_distinct_queries": 444035
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-i-zamena-datchikov",
+      "base_freq_sum_distinct_queries": 287313
+    },
+    {
+      "domain_bucket": "autosimvol.ru:/volkswagen/…",
+      "base_freq_sum_distinct_queries": 284724
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-gidrousilitelya",
+      "base_freq_sum_distinct_queries": 283606
+    },
+    {
+      "domain_bucket": "vag-s.ru:/services/…",
+      "base_freq_sum_distinct_queries": 273328
+    },
+    {
+      "domain_bucket": "vag-s.ru:/online-entries",
+      "base_freq_sum_distinct_queries": 260522
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-i-zamena-kolenvala",
+      "base_freq_sum_distinct_queries": 225996
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-zadnih-amortizatorov",
+      "base_freq_sum_distinct_queries": 208191
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-cepi-grm",
+      "base_freq_sum_distinct_queries": 194706
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-pruzhin-amortizatorov",
+      "base_freq_sum_distinct_queries": 185987
+    },
+    {
+      "domain_bucket": "autosimvol.ru:/skoda/…",
+      "base_freq_sum_distinct_queries": 182532
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-rulevoy-reyki",
+      "base_freq_sum_distinct_queries": 177925
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-sajlentblokov-perednej-podveski",
+      "base_freq_sum_distinct_queries": 175394
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-i-zamena-reduktorov",
+      "base_freq_sum_distinct_queries": 172900
+    },
+    {
+      "domain_bucket": "vagroup.ru:/faq/…",
+      "base_freq_sum_distinct_queries": 166912
+    },
+    {
+      "domain_bucket": "vagroup.ru:/news/…",
+      "base_freq_sum_distinct_queries": 159667
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-zadnih-tormoznih-kolodok",
+      "base_freq_sum_distinct_queries": 156074
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-tormoznyh-diskov",
+      "base_freq_sum_distinct_queries": 148144
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-pompy-zamena-vodyanogo-nasosa",
+      "base_freq_sum_distinct_queries": 141910
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-forsunok",
+      "base_freq_sum_distinct_queries": 139017
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-privodnogo-remnya",
+      "base_freq_sum_distinct_queries": 131539
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-i-zamena-selektora-akpp",
+      "base_freq_sum_distinct_queries": 122487
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-podushek-dvigatelya",
+      "base_freq_sum_distinct_queries": 121922
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-shrusa",
+      "base_freq_sum_distinct_queries": 111664
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-privoda-akpp",
+      "base_freq_sum_distinct_queries": 107434
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-vtulok-stabilizatora",
+      "base_freq_sum_distinct_queries": 103356
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-antifriza",
+      "base_freq_sum_distinct_queries": 100629
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-golovki-bloka-cilindrov",
+      "base_freq_sum_distinct_queries": 93967
+    },
+    {
+      "domain_bucket": "autosimvol.ru:/audi/…",
+      "base_freq_sum_distinct_queries": 92767
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-peredney-podveski",
+      "base_freq_sum_distinct_queries": 88538
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-korobki-peredach",
+      "base_freq_sum_distinct_queries": 86431
+    },
+    {
+      "domain_bucket": "vagroup.ru:/skoda",
+      "base_freq_sum_distinct_queries": 82541
+    },
+    {
+      "domain_bucket": "vagroup.ru:/volkswagen",
+      "base_freq_sum_distinct_queries": 79031
+    },
+    {
+      "domain_bucket": "vagroup.ru:/reviews",
+      "base_freq_sum_distinct_queries": 76488
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-gidrokompensatorov",
+      "base_freq_sum_distinct_queries": 71786
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-saylentblokov-zadney-balki",
+      "base_freq_sum_distinct_queries": 70288
+    },
+    {
+      "domain_bucket": "vagroup.ru:/diagnostika-dvigatelya",
+      "base_freq_sum_distinct_queries": 70084
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-salnika-raspredvala",
+      "base_freq_sum_distinct_queries": 64857
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-bampera",
+      "base_freq_sum_distinct_queries": 59435
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-mkpp",
+      "base_freq_sum_distinct_queries": 57652
+    },
+    {
+      "domain_bucket": "vagroup.ru:/seat",
+      "base_freq_sum_distinct_queries": 54163
+    },
+    {
+      "domain_bucket": "vagroup.ru:/audi",
+      "base_freq_sum_distinct_queries": 53407
+    },
+    {
+      "domain_bucket": "vagroup.ru:/price",
+      "base_freq_sum_distinct_queries": 52242
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-raspredvala",
+      "base_freq_sum_distinct_queries": 51881
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-stoek-stabilizatora",
+      "base_freq_sum_distinct_queries": 49205
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-tormoznogo-supporta",
+      "base_freq_sum_distinct_queries": 48732
+    },
+    {
+      "domain_bucket": "vagroup.ru:/opel/…",
+      "base_freq_sum_distinct_queries": 48112
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-salnikov-akpp",
+      "base_freq_sum_distinct_queries": 42719
+    },
+    {
+      "domain_bucket": "vagroup.ru:/zamena-remnya-grm",
+      "base_freq_sum_distinct_queries": 40631
+    },
+    {
+      "domain_bucket": "vagroup.ru:/remont-i-zamena-razdatochnoy-korobki-razdatki",
+      "base_freq_sum_distinct_queries": 39761
+    },
+    {
+      "domain_bucket": "vagroup.ru:/diagnostika-forsunok",
+      "base_freq_sum_distinct_queries": 37313
+    }
+  ],
+  "top_queries_by_domain": {
+    "vag-s.ru": [
+      {
+        "query": "service",
+        "base_freq": 786656
+      },
+      {
+        "query": "ул с",
+        "base_freq": 690219
+      },
+      {
+        "query": "ваг",
+        "base_freq": 612979
+      },
+      {
+        "query": "вага",
+        "base_freq": 610610
+      },
+      {
+        "query": "вагам",
+        "base_freq": 610333
+      },
+      {
+        "query": "в сервис",
+        "base_freq": 607215
+      },
+      {
+        "query": "в сервисе",
+        "base_freq": 607208
+      },
+      {
+        "query": "сервис в",
+        "base_freq": 592910
+      },
+      {
+        "query": "вагою",
+        "base_freq": 410286
+      },
+      {
+        "query": "vag",
+        "base_freq": 260495
+      },
+      {
+        "query": "vags",
+        "base_freq": 260489
+      },
+      {
+        "query": "сервис с",
+        "base_freq": 198032
+      },
+      {
+        "query": "с сервис",
+        "base_freq": 198032
+      },
+      {
+        "query": "москва сервис",
+        "base_freq": 103248
+      },
+      {
+        "query": "сервис москва",
+        "base_freq": 84577
+      },
+      {
+        "query": "от сервис",
+        "base_freq": 69252
+      },
+      {
+        "query": "ваг на",
+        "base_freq": 54703
+      },
+      {
+        "query": "бмв ошибка",
+        "base_freq": 51458
+      },
+      {
+        "query": "сервис где",
+        "base_freq": 35209
+      },
+      {
+        "query": "техцентры",
+        "base_freq": 30662
+      },
+      {
+        "query": "техцентр",
+        "base_freq": 30662
+      },
+      {
+        "query": "кузовная работа",
+        "base_freq": 28180
+      },
+      {
+        "query": "сервис в москве",
+        "base_freq": 28042
+      },
+      {
+        "query": "ваг с",
+        "base_freq": 26975
+      },
+      {
+        "query": "cc passat",
+        "base_freq": 23430
+      },
+      {
+        "query": "ошибка акпп",
+        "base_freq": 21658
+      },
+      {
+        "query": "ремонт фольксваген",
+        "base_freq": 19751
+      },
+      {
+        "query": "фольксваген ремонт",
+        "base_freq": 19438
+      },
+      {
+        "query": "www service",
+        "base_freq": 17221
+      },
+      {
+        "query": "автосервис карты",
+        "base_freq": 12728
+      },
+      {
+        "query": "двигателя шкода рапид",
+        "base_freq": 11724
+      },
+      {
+        "query": "день сервис",
+        "base_freq": 11551
+      },
+      {
+        "query": "стр сервис",
+        "base_freq": 11453
+      },
+      {
+        "query": "ул талалихина",
+        "base_freq": 10587
+      },
+      {
+        "query": "ваг это",
+        "base_freq": 10490
+      },
+      {
+        "query": "купить vag",
+        "base_freq": 10173
+      },
+      {
+        "query": "ваг сервис",
+        "base_freq": 9448
+      },
+      {
+        "query": "а с сервис",
+        "base_freq": 9429
+      },
+      {
+        "query": "сервисы ваг",
+        "base_freq": 8938
+      },
+      {
+        "query": "сервис ваг",
+        "base_freq": 8938
+      },
+      {
+        "query": "ошибка на бмв",
+        "base_freq": 8830
+      },
+      {
+        "query": "дсг сцепление",
+        "base_freq": 7910
+      },
+      {
+        "query": "про ваг",
+        "base_freq": 7274
+      },
+      {
+        "query": "сервис режим работы",
+        "base_freq": 7148
+      },
+      {
+        "query": "вага сервис",
+        "base_freq": 6798
+      },
+      {
+        "query": "vag ошибки",
+        "base_freq": 6473
+      },
+      {
+        "query": "сервис фольксваген",
+        "base_freq": 6094
+      },
+      {
+        "query": "сервис рядом",
+        "base_freq": 5724
+      },
+      {
+        "query": "акпп 09g",
+        "base_freq": 5572
+      },
+      {
+        "query": "ауди фольксваген",
+        "base_freq": 5494
+      },
+      {
+        "query": "сцепление dsg",
+        "base_freq": 5252
+      },
+      {
+        "query": "автосервис рядом на карте",
+        "base_freq": 5197
+      },
+      {
+        "query": "ваговский",
+        "base_freq": 5185
+      },
+      {
+        "query": "ваговские",
+        "base_freq": 5184
+      },
+      {
+        "query": "группа ваг",
+        "base_freq": 5165
+      },
+      {
+        "query": "ваг групп",
+        "base_freq": 5128
+      },
+      {
+        "query": "ваг группа",
+        "base_freq": 5128
+      },
+      {
+        "query": "радиальная 7",
+        "base_freq": 5068
+      },
+      {
+        "query": "фольксваген сервисный",
+        "base_freq": 5044
+      },
+      {
+        "query": "фольксваген ауди",
+        "base_freq": 4842
+      },
+      {
+        "query": "v service",
+        "base_freq": 4626
+      },
+      {
+        "query": "машины ваги",
+        "base_freq": 4085
+      },
+      {
+        "query": "машины ваг",
+        "base_freq": 4085
+      },
+      {
+        "query": "машина ваг",
+        "base_freq": 4085
+      },
+      {
+        "query": "машина вага",
+        "base_freq": 4085
+      },
+      {
+        "query": "сервис ауди",
+        "base_freq": 4084
+      },
+      {
+        "query": "ремонт volkswagen",
+        "base_freq": 3980
+      },
+      {
+        "query": "ваг он",
+        "base_freq": 3834
+      },
+      {
+        "query": "ваги машины",
+        "base_freq": 3723
+      },
+      {
+        "query": "ваг машина",
+        "base_freq": 3723
+      },
+      {
+        "query": "тигуан замена грм",
+        "base_freq": 3675
+      },
+      {
+        "query": "сервис vag",
+        "base_freq": 3517
+      },
+      {
+        "query": "сервисы vag",
+        "base_freq": 3517
+      },
+      {
+        "query": "zf коробки передач",
+        "base_freq": 3364
+      },
+      {
+        "query": "vag сервис",
+        "base_freq": 3326
+      },
+      {
+        "query": "аи сервис",
+        "base_freq": 3265
+      },
+      {
+        "query": "октавия сервис",
+        "base_freq": 3249
+      },
+      {
+        "query": "vw ремонт",
+        "base_freq": 3212
+      },
+      {
+        "query": "обслуживание фольксваген",
+        "base_freq": 3190
+      },
+      {
+        "query": "проспект автосервис",
+        "base_freq": 3185
+      }
+    ],
+    "vagroup.ru": [
+      {
+        "query": "масла замена",
+        "base_freq": 1253959
+      },
+      {
+        "query": "шкоду октавию",
+        "base_freq": 905911
+      },
+      {
+        "query": "автосервисе",
+        "base_freq": 840396
+      },
+      {
+        "query": "вагам",
+        "base_freq": 610333
+      },
+      {
+        "query": "вагах",
+        "base_freq": 610296
+      },
+      {
+        "query": "замена передних",
+        "base_freq": 607842
+      },
+      {
+        "query": "вагой",
+        "base_freq": 363510
+      },
+      {
+        "query": "октавии а5",
+        "base_freq": 349710
+      },
+      {
+        "query": "замена акпп",
+        "base_freq": 315210
+      },
+      {
+        "query": "замена датчиков",
+        "base_freq": 287300
+      },
+      {
+        "query": "vag",
+        "base_freq": 260495
+      },
+      {
+        "query": "vags",
+        "base_freq": 260489
+      },
+      {
+        "query": "замена сальников",
+        "base_freq": 249439
+      },
+      {
+        "query": "замена сальника",
+        "base_freq": 248287
+      },
+      {
+        "query": "акпп замена",
+        "base_freq": 246707
+      },
+      {
+        "query": "а5 шкода",
+        "base_freq": 245483
+      },
+      {
+        "query": "шкоду октавия а5",
+        "base_freq": 219351
+      },
+      {
+        "query": "шкоду октавию а5",
+        "base_freq": 219351
+      },
+      {
+        "query": "октавия тур",
+        "base_freq": 199391
+      },
+      {
+        "query": "замена цепи",
+        "base_freq": 188371
+      },
+      {
+        "query": "замена рулевого",
+        "base_freq": 177925
+      },
+      {
+        "query": "замена колодок задних",
+        "base_freq": 155607
+      },
+      {
+        "query": "замена помпы",
+        "base_freq": 120504
+      },
+      {
+        "query": "замена коленвала",
+        "base_freq": 115972
+      },
+      {
+        "query": "замена приводов",
+        "base_freq": 107436
+      },
+      {
+        "query": "замена привода",
+        "base_freq": 107434
+      },
+      {
+        "query": "замена редуктора",
+        "base_freq": 103006
+      },
+      {
+        "query": "замена втулок",
+        "base_freq": 101498
+      },
+      {
+        "query": "коленвал замена",
+        "base_freq": 98369
+      },
+      {
+        "query": "замена пружин",
+        "base_freq": 96825
+      },
+      {
+        "query": "замена тормозных дисков",
+        "base_freq": 93414
+      },
+      {
+        "query": "замена гбц",
+        "base_freq": 91125
+      },
+      {
+        "query": "замена антифриза",
+        "base_freq": 88194
+      },
+      {
+        "query": "замена гур",
+        "base_freq": 88080
+      },
+      {
+        "query": "замена гура",
+        "base_freq": 88080
+      },
+      {
+        "query": "шкода двигатели",
+        "base_freq": 86381
+      },
+      {
+        "query": "замена подушки",
+        "base_freq": 78663
+      },
+      {
+        "query": "гур замена",
+        "base_freq": 77728
+      },
+      {
+        "query": "замена форсунок",
+        "base_freq": 75553
+      },
+      {
+        "query": "редуктор замена",
+        "base_freq": 69894
+      },
+      {
+        "query": "шрус замена",
+        "base_freq": 69286
+      },
+      {
+        "query": "замена колодки передние",
+        "base_freq": 68016
+      },
+      {
+        "query": "замена амортизаторов задних",
+        "base_freq": 66337
+      },
+      {
+        "query": "замена заднего амортизатора",
+        "base_freq": 66337
+      },
+      {
+        "query": "замена задних амортизаторов",
+        "base_freq": 66337
+      },
+      {
+        "query": "форсунки замена",
+        "base_freq": 60013
+      },
+      {
+        "query": "шкода октавия замена",
+        "base_freq": 59565
+      },
+      {
+        "query": "замена мкпп",
+        "base_freq": 56246
+      },
+      {
+        "query": "ауди а4 б6",
+        "base_freq": 55726
+      },
+      {
+        "query": "ваг на",
+        "base_freq": 54703
+      },
+      {
+        "query": "шкода где",
+        "base_freq": 54194
+      },
+      {
+        "query": "сеата",
+        "base_freq": 53583
+      },
+      {
+        "query": "замена сайлентблока рычага",
+        "base_freq": 53200
+      },
+      {
+        "query": "замена распредвалов",
+        "base_freq": 51881
+      },
+      {
+        "query": "распредвал сальник",
+        "base_freq": 51190
+      },
+      {
+        "query": "замена сайлентблоков передних",
+        "base_freq": 48134
+      },
+      {
+        "query": "замена передних сайлентблоков",
+        "base_freq": 48134
+      },
+      {
+        "query": "в групп москва",
+        "base_freq": 47884
+      },
+      {
+        "query": "замена приводного",
+        "base_freq": 45834
+      },
+      {
+        "query": "кпп ремонт",
+        "base_freq": 45366
+      },
+      {
+        "query": "на шкоде октавия тур",
+        "base_freq": 43876
+      },
+      {
+        "query": "замены стоек стабилизатора",
+        "base_freq": 42666
+      },
+      {
+        "query": "замена приводных ремней",
+        "base_freq": 41278
+      },
+      {
+        "query": "замена приводного ремня",
+        "base_freq": 41274
+      },
+      {
+        "query": "замена амортизаторов передних",
+        "base_freq": 41045
+      },
+      {
+        "query": "замена ремня грм на",
+        "base_freq": 40081
+      },
+      {
+        "query": "ку 7 ауди",
+        "base_freq": 40025
+      },
+      {
+        "query": "замена подушки двигателя",
+        "base_freq": 39970
+      },
+      {
+        "query": "масло тигуан",
+        "base_freq": 39800
+      },
+      {
+        "query": "селектора акпп",
+        "base_freq": 39129
+      },
+      {
+        "query": "селектор акпп",
+        "base_freq": 39129
+      },
+      {
+        "query": "двигателя шкода октавия",
+        "base_freq": 38835
+      },
+      {
+        "query": "акпп селектор",
+        "base_freq": 38667
+      },
+      {
+        "query": "грм шкода",
+        "base_freq": 38286
+      },
+      {
+        "query": "замена бампера",
+        "base_freq": 38244
+      },
+      {
+        "query": "предохранители шкода",
+        "base_freq": 37704
+      },
+      {
+        "query": "замена рулевых наконечников",
+        "base_freq": 35510
+      },
+      {
+        "query": "ремонт передних",
+        "base_freq": 34472
+      },
+      {
+        "query": "замена шруса внутреннего",
+        "base_freq": 33953
+      },
+      {
+        "query": "замена задних пружин",
+        "base_freq": 33015
+      }
+    ],
+    "autosimvol.ru": [
+      {
+        "query": "метки грм",
+        "base_freq": 287621
+      },
+      {
+        "query": "грм метки",
+        "base_freq": 261241
+      },
+      {
+        "query": "vags",
+        "base_freq": 260489
+      },
+      {
+        "query": "шкода октавия замена",
+        "base_freq": 59565
+      },
+      {
+        "query": "1.8 tsi",
+        "base_freq": 57678
+      },
+      {
+        "query": "метки на грм",
+        "base_freq": 49204
+      },
+      {
+        "query": "на метки грм",
+        "base_freq": 49150
+      },
+      {
+        "query": "как выставить метки на",
+        "base_freq": 32571
+      },
+      {
+        "query": "как выставить метки грм",
+        "base_freq": 28356
+      },
+      {
+        "query": "метки коленвала",
+        "base_freq": 26776
+      },
+      {
+        "query": "метка коленвала",
+        "base_freq": 26772
+      },
+      {
+        "query": "грм ауди",
+        "base_freq": 25782
+      },
+      {
+        "query": "ауди ремонт",
+        "base_freq": 23826
+      },
+      {
+        "query": "шкода октавия а5 замена",
+        "base_freq": 22949
+      },
+      {
+        "query": "метки распредвала",
+        "base_freq": 22937
+      },
+      {
+        "query": "ремонт фольксвагена",
+        "base_freq": 19751
+      },
+      {
+        "query": "ремонт фольксваген",
+        "base_freq": 19751
+      },
+      {
+        "query": "фольксваген ремонт",
+        "base_freq": 19438
+      },
+      {
+        "query": "ремонт ауди",
+        "base_freq": 19333
+      },
+      {
+        "query": "поло то",
+        "base_freq": 18790
+      },
+      {
+        "query": "метки грм цепи",
+        "base_freq": 17727
+      },
+      {
+        "query": "метки на двигателе",
+        "base_freq": 17207
+      },
+      {
+        "query": "замена грм шкода",
+        "base_freq": 16428
+      },
+      {
+        "query": "ремонт шкода",
+        "base_freq": 15868
+      },
+      {
+        "query": "ремонт шкоды",
+        "base_freq": 15868
+      },
+      {
+        "query": "шкода ремонт",
+        "base_freq": 15440
+      },
+      {
+        "query": "то порше",
+        "base_freq": 14119
+      },
+      {
+        "query": "проверка цепи",
+        "base_freq": 13977
+      },
+      {
+        "query": "замена грм фольксваген",
+        "base_freq": 13591
+      },
+      {
+        "query": "выставление меток",
+        "base_freq": 12270
+      },
+      {
+        "query": "то калькулятор",
+        "base_freq": 12127
+      },
+      {
+        "query": "запчасти ауди",
+        "base_freq": 11353
+      },
+      {
+        "query": "грм фольксваген поло",
+        "base_freq": 11270
+      },
+      {
+        "query": "метки грм 1",
+        "base_freq": 10806
+      },
+      {
+        "query": "калькулятор то",
+        "base_freq": 10311
+      },
+      {
+        "query": "ауди запчасти",
+        "base_freq": 10090
+      },
+      {
+        "query": "шкода то",
+        "base_freq": 9965
+      },
+      {
+        "query": "то шкода",
+        "base_freq": 9964
+      },
+      {
+        "query": "ваг сервис",
+        "base_freq": 9448
+      },
+      {
+        "query": "замена грм поло",
+        "base_freq": 9423
+      },
+      {
+        "query": "то фольксваген",
+        "base_freq": 9151
+      },
+      {
+        "query": "сервисы ваг",
+        "base_freq": 8938
+      },
+      {
+        "query": "сервис ваг",
+        "base_freq": 8938
+      },
+      {
+        "query": "ремонт пассат",
+        "base_freq": 8924
+      },
+      {
+        "query": "ошибка 2015",
+        "base_freq": 8812
+      },
+      {
+        "query": "замена грм ауди",
+        "base_freq": 8387
+      },
+      {
+        "query": "грм гольф",
+        "base_freq": 7815
+      },
+      {
+        "query": "сервис шкода",
+        "base_freq": 7469
+      },
+      {
+        "query": "метки шкива коленвала",
+        "base_freq": 7177
+      },
+      {
+        "query": "метка шкива коленвала",
+        "base_freq": 7177
+      },
+      {
+        "query": "то ауди",
+        "base_freq": 7120
+      },
+      {
+        "query": "метки на шкиве",
+        "base_freq": 6995
+      },
+      {
+        "query": "выставление меток грм",
+        "base_freq": 6971
+      },
+      {
+        "query": "вага сервис",
+        "base_freq": 6798
+      },
+      {
+        "query": "как проверить метки",
+        "base_freq": 6690
+      },
+      {
+        "query": "ремонт поло",
+        "base_freq": 6679
+      },
+      {
+        "query": "установка меток грм",
+        "base_freq": 6429
+      },
+      {
+        "query": "фольксваген туарег замена",
+        "base_freq": 6409
+      },
+      {
+        "query": "ремонт шкоды октавия",
+        "base_freq": 6266
+      },
+      {
+        "query": "замена ремня грм фольксваген",
+        "base_freq": 6183
+      },
+      {
+        "query": "ремонт туарег",
+        "base_freq": 6165
+      },
+      {
+        "query": "ремонт туарега",
+        "base_freq": 6165
+      },
+      {
+        "query": "ремонт и обслуживание двигателей",
+        "base_freq": 5891
+      },
+      {
+        "query": "метки на распредвалах",
+        "base_freq": 5889
+      },
+      {
+        "query": "метки на распредвале",
+        "base_freq": 5889
+      },
+      {
+        "query": "шкода фольксваген",
+        "base_freq": 5420
+      },
+      {
+        "query": "грм на поло",
+        "base_freq": 5183
+      },
+      {
+        "query": "audi vw",
+        "base_freq": 4862
+      },
+      {
+        "query": "замена грм фольксваген поло",
+        "base_freq": 4796
+      },
+      {
+        "query": "ремонт тигуана",
+        "base_freq": 4682
+      },
+      {
+        "query": "ремонт тигуан",
+        "base_freq": 4682
+      },
+      {
+        "query": "замена грм тигуан",
+        "base_freq": 4655
+      },
+      {
+        "query": "цепь грм ауди",
+        "base_freq": 4613
+      },
+      {
+        "query": "замена грм поло 1.6",
+        "base_freq": 4603
+      },
+      {
+        "query": "p2015",
+        "base_freq": 4481
+      },
+      {
+        "query": "как проверить цепь грм",
+        "base_freq": 4461
+      },
+      {
+        "query": "как проверяют цепь грм",
+        "base_freq": 4461
+      },
+      {
+        "query": "ремонт audi",
+        "base_freq": 4245
+      },
+      {
+        "query": "запчасти на ауди",
+        "base_freq": 4234
+      },
+      {
+        "query": "метки грм коленвала",
+        "base_freq": 4149
+      }
+    ]
+  }
+}

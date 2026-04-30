@@ -1,0 +1,23 @@
+Набор иконок от дизайнера — куда положить файлы
+==============================================
+
+1) ОБЯЗАТЕЛЬНО в корень public (старые браузеры ищут именно там):
+   public/favicon.ico
+
+2) Остальное из комплекта (часто так называют после RealFaviconGenerator и аналогов) — в эту папку:
+   public/favicon/favicon-16x16.png
+   public/favicon/favicon-32x32.png
+   public/favicon/apple-touch-icon.png          (обычно 180×180)
+   public/favicon/android-chrome-192x192.png
+   public/favicon/android-chrome-512x512.png
+   public/favicon/safari-pinned-tab.svg         (если есть — маска для Safari)
+
+3) Файл public/favicon/site.webmanifest — пути к иконкам от корня сайта с префиксом
+   /favicon/… (например /favicon/android-chrome-192x192.png). При других именах
+   файлов поправьте пути в манифесте.
+
+4) Подключение в коде: src/lib/site.ts не трогается; иконки задаются в
+   src/app/layout.tsx (metadata.icons и manifest).
+
+Если имена у дизайнера другие — переименуйте под список выше ИЛИ измените
+пути в layout.tsx под свои имена.

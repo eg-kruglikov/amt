@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageIntro } from "@/components/PageIntro";
+import { ServiceFaqJsonLd } from "@/components/ServiceFaqJsonLd";
 import { getServiceBySlug, services } from "@/data/services";
 import { site } from "@/lib/site";
 
@@ -27,8 +28,22 @@ export default async function ServicePage({ params }: Props) {
   const service = getServiceBySlug(slug);
   if (!service) notFound();
 
+  const relatedFromSlugs =
+    service.relatedSlugs
+      ?.map((s) => {
+        const rel = getServiceBySlug(s);
+        if (!rel) return null;
+        return { href: `/services/${rel.slug}`, label: rel.title };
+      })
+      .filter((x): x is { href: string; label: string } => x != null) ?? [];
+
+  const related = [...relatedFromSlugs, ...(service.relatedLinks ?? [])];
+
+  const hasSections = Boolean(service.sections?.length);
+
   return (
     <article className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+      {service.faqs?.length ? <ServiceFaqJsonLd faqs={service.faqs} /> : null}
       <nav className="text-sm text-brand-silver">
         <Link href="/" className="hover:text-brand-gold">
           Главная
@@ -83,16 +98,70 @@ export default async function ServicePage({ params }: Props) {
         </div>
       </div>
 
-      <div className="mt-14 max-w-none border-t border-brand-silver/10 pt-10">
-        {service.body.map((paragraph, index) => (
-          <p
-            key={index}
-            className="mb-4 text-base leading-relaxed text-brand-silver last:mb-0"
-          >
-            {paragraph}
-          </p>
-        ))}
+      <div className="mt-14 max-w-none space-y-10 border-t border-brand-silver/10 pt-10">
+        {hasSections
+          ? service.sections!.map((sec) => (
+              <section key={sec.title} className="max-w-3xl">
+                <h2 className="text-xl font-semibold tracking-tight text-brand-white">
+                  {sec.title}
+                </h2>
+                <div className="mt-4 space-y-4">
+                  {sec.paragraphs.map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className="text-base leading-relaxed text-brand-silver"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            ))
+          : service.body.map((paragraph, index) => (
+              <p
+                key={index}
+                className="mb-4 max-w-3xl text-base leading-relaxed text-brand-silver last:mb-0"
+              >
+                {paragraph}
+              </p>
+            ))}
       </div>
+
+      {service.faqs?.length ? (
+        <section className="mt-14 max-w-3xl rounded-2xl border border-brand-silver/15 bg-black/20 p-6 sm:p-8">
+          <h2 className="text-lg font-semibold text-brand-white">Частые вопросы</h2>
+          <ul className="mt-6 space-y-6">
+            {service.faqs.map((item) => (
+              <li key={item.question}>
+                <p className="font-medium text-brand-white">{item.question}</p>
+                <p className="mt-2 text-sm leading-relaxed text-brand-silver">
+                  {item.answer}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {related.length > 0 ? (
+        <section className="mt-12 rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6 lg:max-w-xl">
+          <h2 className="text-sm font-semibold tracking-wide text-brand-white uppercase">
+            См. также
+          </h2>
+          <ul className="mt-4 flex flex-col gap-2">
+            {related.map((item) => (
+              <li key={`${item.href}-${item.label}`}>
+                <Link
+                  href={item.href}
+                  className="text-sm font-medium text-brand-gold hover:text-brand-amber"
+                >
+                  {item.label} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
     </article>
   );
 }

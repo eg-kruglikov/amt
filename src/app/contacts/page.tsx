@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageIntro } from "@/components/PageIntro";
+import { YandexMapEmbed } from "@/components/YandexMapEmbed";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ContactsPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-20">
+    <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 sm:py-20">
       <PageIntro
         eyebrow={site.city}
         title="Контакты и запись"
@@ -47,6 +48,37 @@ export default function ContactsPage() {
           </Link>
         </div>
       </div>
+
+      <section
+        id="map"
+        aria-labelledby="contacts-map-heading"
+        className="mt-12 space-y-4 scroll-mt-24"
+      >
+        <h2
+          id="contacts-map-heading"
+          className="text-lg font-semibold text-brand-white"
+        >
+          Схема проезда
+        </h2>
+        <p className="text-sm text-brand-silver">
+          Карта открывается по карточке организации в Яндексе — та же метка
+          автосервиса и название, что в приложении. Ниже — перейти к карточке
+          целиком (маршрут, отзывы).
+        </p>
+        <div className="aspect-[16/10] w-full max-h-[min(28rem,70vh)] min-h-[220px]">
+          <YandexMapEmbed />
+        </div>
+        <p className="text-center text-xs text-brand-silver/85">
+          <a
+            href={site.yandexMapsOrg.pageUrl}
+            className="font-medium text-brand-gold hover:text-brand-amber"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Карточка «{site.name}» в Яндекс.Картах
+          </a>
+        </p>
+      </section>
     </div>
   );
 }
